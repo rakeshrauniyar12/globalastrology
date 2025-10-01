@@ -1,0 +1,38 @@
+
+
+.mainFormContent{
+    width: 20%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.mainFormContent>div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.mainFormContent>div>input{
+    padding: 10px;
+}
+
+.mainFormContent>button{
+    background-color: var(--secondary);
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    width: 100%;
+    font-weight: 600;
+}
+
+@media screen and (max-width:768px) {
+    .mainFormContent{
+        width: 80%;
+    }
+    .mainFormContent>div{
+        margin-top: 20px;
+    }
+}

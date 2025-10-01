@@ -1,0 +1,30 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.07);
+  color: #222;
+}
+
+.heading {
+  margin-top: 60px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.subheading {
+  margin-top: 60px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.link {
+  color: #b22222;
+  text-decoration: underline;
+}
+
+

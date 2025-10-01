@@ -1,0 +1,50 @@
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 32px 20px;
+  background-color: #fafafa;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.07);
+  color: #333;
+}
+
+.heading {
+  margin-top: 60px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.subheading {
+  margin-top: 60px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.subsubheading {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.list {
+  margin: 14px 0 0 24px;
+  padding-left: 18px;
+  color: #444;
+  list-style-type: disc;
+}
+
+.link {
+  color: #b22222;
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: 700;
+  color: #b22222;
+}
+
+.updated {
+  margin-top: 40px;
+  font-style: italic;
+  color: #666;
+}

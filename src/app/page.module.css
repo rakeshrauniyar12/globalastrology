@@ -1,0 +1,377 @@
+.commonSec {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.collectionGrid {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  overflow-x: scroll;
+  column-gap: 20px;
+  margin-top: 30px;
+}
+.collecP {
+  margin: 15px 0px;
+}
+.collectionImg {
+  border-radius: 50%;
+  width: 150px;
+}
+.collectionImg > img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.bestGridCard {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 20px;
+  row-gap: 60px;
+  margin-top: 30px;
+}
+
+.sec3H1 {
+  text-align: center;
+}
+
+.stoneDIvGrid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  column-gap: 10px;
+  margin-top: 30px;
+}
+.stoneImg {
+  width: 100px;
+}
+.stoneImg > img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.sec4Div {
+  width: 100%;
+  padding: 30px;
+  margin-top: 50px;
+  background-color: var(--quart);
+}
+
+.sec4DivContent {
+  width: 90%;
+  margin: auto;
+}
+
+.gridSec4div {
+  display: flex;
+  column-gap: 20px;
+  margin-top: 30px;
+}
+.gridSec4div1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 13px;
+}
+.gridSec4div2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.gridSec4divimg {
+  display: flex;
+  gap: 20px;
+}
+.gridSec4divimg1 {
+  width: 100%;
+}
+.gridSec4divimg1 > img {
+  width: 100%;
+  object-fit: contain;
+}
+.gridSec4divimg2 {
+  width: 100%;
+  height: 340px;
+}
+
+.gridSec4divimg2 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.collectionGrid1 {
+  display: flex;
+  width: 100%;
+  column-gap: 20px;
+  overflow-x: scroll;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+.collectionGrid1 > div {
+  flex: 0 0 auto; /* prevents shrinking */
+  min-width: 220px; /* control card width */
+  max-width: 250px; /* optional */
+}
+
+.sec5Div {
+  width: 90%;
+  margin: auto;
+  background-color: var(--quart);
+}
+.sec5DivH1 {
+  width: 60%;
+  margin: 50px;
+  padding-top: 50px;
+}
+.sec5DivP1 {
+  margin-top: 20px;
+}
+.sec5DivImg {
+  width: 100%;
+}
+
+.sec5DivImg > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.sec6Div {
+  display: flex;
+  justify-content: space-between;
+}
+.sec6Div > a {
+  text-decoration: underline;
+}
+
+.sec7Div {
+  width: 100%;
+  background-color: var(--secondary);
+  margin-top: 50px;
+  padding-bottom: 40px;
+}
+.sec6DivHeading {
+  text-align: center;
+  color: var(--primary);
+  padding-top: 50px;
+  margin-bottom: 50px;
+  line-height: 50px;
+}
+.youtubeVideoSec {
+  width: 80%;
+  margin: auto;
+}
+.youtubeVideoSec > iframe {
+  width: 100%;
+  height: 500px;
+}
+.sec8Div {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.div8Grid {
+  display: flex;
+  column-gap: 20px;
+  margin-top: 30px;
+}
+
+.divImage {
+  width: 90%;
+}
+.divImage > img {
+  width: 100%;
+  object-fit: contain;
+}
+.divText {
+  width: 90%;
+  background-color: var(--tertiary);
+  text-align: center;
+  padding: 20px;
+  color: var(--primary);
+  margin-top: -5px;
+  line-height: 45px;
+}
+.collectionGrid2 {
+  display: flex;
+  width: 100%;
+  column-gap: 20px;
+  overflow-x: scroll;
+  padding-bottom: 20px;
+  height: fit-content;
+}
+.collectionGrid2 > div {
+  flex: 0 0 auto; /* prevents shrinking */
+  min-width: 220px; /* control card width */
+  max-width: 250px; /* optional */
+}
+
+.sec9Div {
+  background-color: var(--secondary);
+  padding: 20px 0px;
+  margin-top: 50px;
+}
+.sec9Div > h1 {
+  text-align: center;
+  color: var(--primary);
+}
+.sec9Div > .stoneDIvGrid {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.sec10Div {
+  width: 90%;
+  margin: auto;
+  background-color: var(--tertiary);
+  display: flex;
+  column-gap: 30px;
+  height: fit-content;
+  margin-top: 50px;
+}
+
+.sec10DivImg {
+  width: 1400px;
+}
+.sec10DivImg > img {
+  width: 100%;
+  object-fit: cover;
+}
+.sec10DivText {
+  padding: 30px;
+  text-align: left;
+  color: var(--primary);
+}
+.sec10DivText > p {
+  margin: 20px 0px;
+}
+.sec10DivText > button {
+  padding: 16px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.sec11Div {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.sec11DivGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.sec11DivGridImg {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+.sec11DivGridImg > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sec11DivGridText {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: var(--primary);
+}
+.sec11DivGridText>button{
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    color: var(--primary);
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+   background-color: transparent;
+}
+
+.sec12Div{
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .bestGridCard {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .stoneDIvGrid {
+    width: 95%;
+    margin: auto;
+    overflow-x: scroll;
+  }
+  .gridSec4div {
+    flex-direction: column;
+  }
+  .gridSec4div1,
+  .gridSec4div2 {
+    width: 100%;
+  }
+  .sec4DivContent {
+    width: 100%;
+  }
+  .sec5DivH1 {
+    width: 95%;
+    margin: 10px 10px 25px 10px;
+  }
+  .sec6Div {
+    align-items: center;
+  }
+  .sec6Div > h1,
+  .sec6Div > a {
+    font-size: 25px;
+  }
+  .sec6DivHeading {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+    line-height: 30px;
+  }
+  .sec6DivHeading > h1 {
+    font-size: 22px;
+  }
+  .sec6DivHeading > p {
+    font-size: 20px;
+  }
+  .div8Grid{
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .divImage{
+    width: 100%;
+  }
+  .divText{
+    width: 100%;
+  }
+  .sec10Div{
+    flex-direction: column;
+  }
+  .sec10DivImg{
+    width: 100%;
+  }
+  .sec10DivImg>img{
+      object-fit: contain;
+  }
+  .sec11DivGrid{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .sec11DivGridImg{
+    height: 300px;
+  }
+}

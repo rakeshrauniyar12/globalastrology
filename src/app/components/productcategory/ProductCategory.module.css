@@ -1,0 +1,113 @@
+.mainContainer {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+.mainHeading {
+  text-align: center;
+}
+
+.filterAndSort {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin-top: 50px;
+  padding: 20px 0px;
+}
+
+.filterSortText {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+.borderBwt {
+  width: 2px;
+  height: 25px;
+  background-color: gray;
+}
+
+.sortText {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.filterOptionAndProduct {
+  display: flex;
+  column-gap: 30px;
+  margin-top: 30px;
+}
+
+.filterPanel {
+  width: 30%;
+  border-right: 1px solid gray;
+  padding: 0px 20px;
+}
+
+.filterPanelDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.filterPanelDiv > svg {
+  font-size: 27px;
+  cursor: pointer;
+}
+.filterSecDiv {
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}
+.dropdownContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dropdownContent > label {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+.checkboxType {
+  width: 20px;
+  height: 20px;
+  appearance: none; /* remove default style */
+  border: 2px solid #555;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.chevron {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.rotateUp {
+  transform: rotate(180deg);
+}
+
+.dropdownContent {
+  margin-top: 25px;
+}
+
+.dropdownContentInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dropdownContentInput > input {
+  width: 42%;
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+
+.filterPTag{
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.productCard{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 14px;
+  row-gap: 35px;
+}

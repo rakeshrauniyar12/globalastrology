@@ -1,0 +1,170 @@
+.footer {
+  background: #f5f6f7;
+  padding: 3rem 1.5rem 1rem;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+.container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 2rem;
+  gap: 2rem;
+  margin: auto;
+  line-height: 25px;
+}
+
+.logoSection {
+  margin-bottom: 1rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.badge {
+  display: block;
+  font-size: 0.9rem;
+  color: #c00;
+  font-weight: normal;
+}
+
+.tagline {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.description {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.4rem;
+}
+
+.links h4,
+.contact h4 {
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.links a,
+.contact a {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+  color: #222;
+  text-decoration: none;
+}
+
+.links a:hover,
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.address {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+
+.subscribe {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.subscribe input {
+  flex: 1;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+}
+
+.subscribe button {
+  padding: 0 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0 6px 6px 0;
+  background: #fff;
+  cursor: pointer;
+}
+
+.bottom {
+  border-top: 1px solid #ddd;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.featuresWrapper {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px 40px;
+  align-items: center;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.box1 h4,
+.box2 h4,
+.box3 h4,
+.box4 h4 {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+}
+
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: #555;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+  font-size: 28px;
+  color: #222;
+}
+
+@media (max-width: 768px) {
+  .featuresWrapper {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

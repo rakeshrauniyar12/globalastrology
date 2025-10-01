@@ -1,0 +1,231 @@
+.sec1Div {
+  position: relative;
+  width: 100%;
+  /* optional */
+  margin: auto;
+}
+.sec1DivImg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* black overlay */
+  backdrop-filter: blur(3px); /* blur effect */
+}
+
+.sec1DivText {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; /* so text is visible on image */
+  padding: 20px;
+  border-radius: 8px;
+}
+.sec1DivText > h4 {
+  margin: 20px 0px;
+}
+
+.sec2Div {
+  width: 90%;
+  margin: auto;
+}
+.headingText {
+  text-align: center;
+  margin-top: 50px;
+}
+.headingText > p {
+  width: 50%;
+  margin: auto;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+.divGrid {
+  display: flex;
+  gap: 30px;
+}
+
+.divGridCard {
+  width: 50%;
+  position: relative;
+  height: 730px;
+}
+.divGridCard > img {
+  width: 100%;
+  height: 100%;
+}
+.divGridCard2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  width: 50%;
+  height: 700px;
+}
+
+.divGridCard21 {
+  height: 50%;
+  position: relative;
+}
+.divGridCard21 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.divContent {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+  color: #fff;
+}
+
+.sec3Div {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+.sec3DivGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+.sec3DivGrid > div {
+  background-color: var(--quart);
+}
+.sec3DivGridImg {
+  width: 100%;
+  height: 300px;
+}
+.sec3DivGridImg > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sec3DivCardText {
+  padding: 30px;
+  line-height: 24px;
+}
+.sec3DivCardText > p {
+  margin-top: 20px;
+}
+
+.sec4Div {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+.sec4Div > p {
+  margin-top: 20px;
+}
+
+.sec12Div {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.sec5Div {
+  margin-top: 50px;
+}
+.sec5DivImg {
+  width: 100%;
+  position: relative;
+}
+.sec5DivImg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* black overlay */
+}
+.sec5DivImg > img {
+  width: 100%;
+  object-fit: cover;
+}
+.sec5DivText {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  color: #fff;
+  text-align: center;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+}
+
+.sec5DivText > p {
+  margin-top: 40px;
+  line-height: 30px;
+}
+
+.sec6Div {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  column-gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.sec6Div > div {
+  width: 50%;
+}
+.sec6DivImage {
+  width: 100%;
+  position: relative;
+}
+.sec6DivImage > img {
+  width: 100%;
+  object-fit: cover;
+}
+.sec6DivText {
+  position: absolute;
+  left: 20px;
+  color: #fff;
+  bottom: 20px;
+}
+
+
+@media screen and (max-width:768px) {
+   .sec1DivImg{
+       height: 370px;
+   }
+   .sec1DivImg>img{
+    width: 100%;
+   height: 100%;
+   }
+   .sec1DivText{
+    top: 46%;
+    width: 100%;
+   }
+   .headingText>p{
+    width: 100%;
+   }
+   .divGrid{
+    flex-direction: column;
+   }
+   .divGridCard{
+    width: 100%;
+    height: 380px;
+   }
+   .divGridCard2{
+    width: 100%;
+   }
+   .sec3DivGrid{
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 20px;
+   }
+   .sec4Div{
+    width: 100%;
+    padding: 0px 20px;
+   }
+   .sec5DivText{
+    top: 170px;
+   }
+}
